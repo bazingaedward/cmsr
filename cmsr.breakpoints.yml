@@ -1,0 +1,13 @@
+cmsr.mobile:
+  label: 'mobile'
+  mediaQuery: 'all and (max-width: 999px)'
+  weight: 1
+  multipliers:
+    - 1x
+
+cmsr.normal:
+  label: 'wide'
+  mediaQuery: 'all and (min-width: 1000px)'
+  weight: 1
+  multipliers:
+    - 1x
