@@ -69,7 +69,7 @@
 {# Banner #}
 {% if page.banner %}
   {% block banner %}
-    <div class="col-sm-12" role="banner">
+    <div class="row" role="banner">
       {{ page.banner }}
     </div>
   {% endblock %}
@@ -86,7 +86,7 @@
         theme.settings.navbar_position ? 'navbar-' ~ theme.settings.navbar_position|clean_class : container,
       ]
     %}
-    <header{{ navbar_attributes.addClass(navbar_classes) }} id="navbar" role="banner">
+    <div{{ navbar_attributes.addClass(navbar_classes) }} id="main-menu" role="mainmenu">
       {% if not navbar_attributes.hasClass(container) %}
         <div class="{{ container }}">
       {% endif %}
@@ -112,7 +112,7 @@
       {% if not navbar_attributes.hasClass(container) %}
         </div>
       {% endif %}
-    </header>
+    </div>
   {% endblock %}
 {% endif %}
 
