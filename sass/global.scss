@@ -1,0 +1,24 @@
+body {
+  width: 1000px;
+  margin: 0 10%;
+  font-size: 12px;
+  font-family: Arial,"宋体"
+}
+
+footer.footer {
+  border-top: 3px #ddd solid;
+  background: white;
+  color: #999;
+}
+
+/*block-search*/
+.region-search {
+  display: flex;
+  justify-content: space-between;
+}
+div.search-block-form {
+  width: 200px;
+}
+.region-search {
+  background: #146eb8;
+}
