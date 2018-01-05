@@ -24,6 +24,16 @@ $head-bg-color: #146eb8;
   // block-search
   .row[role=searching] {
     height: 35px;
+    .menu.nav {
+      display: flex;
+      margin-right: 30px;
+    }
+    .nav a {
+      color: white;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
   .region-search {
     display: flex;
@@ -35,16 +45,7 @@ $head-bg-color: #146eb8;
     width: 200px;
     margin-left: 30px;
   }
-  .menu.nav {
-    display: flex;
-    margin-right: 30px;
-  }
-  .nav a {
-    color: white;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
+
   // block-banner
   [role=banner] {
     width: 100%;
