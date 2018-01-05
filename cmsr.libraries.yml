@@ -7,3 +7,5 @@ front-page:
   css:
     theme:
       css/front.css: {}
+  dependencies:
+    - core/jquery
