@@ -1,0 +1,27 @@
+h4 {
+  background: #5c98d8;
+  color: white;
+  font-size: 14px;
+  border-radius: 10px 10px 0 0;
+  height: 35px;
+  padding-top: 5px;
+  padding-left: 10px;
+  line-height: 28px;
+  margin-bottom: 0;
+  &:before {
+    content: url(../images/baikuai.jpg);
+    margin-right: 5px;
+  }
+}
+.front-block {
+  border: 1px #F3F3F3 solid;
+  li {
+    height: 30px;
+    line-height: 30px;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted #ddd;
+  }
+  a {
+    color: #444;
+  }
+}

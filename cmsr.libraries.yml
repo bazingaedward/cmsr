@@ -2,3 +2,8 @@ global-styling:
   css:
     theme:
       css/global.css: {}
+
+front-page:
+  css:
+    theme:
+      css/front.css: {}
